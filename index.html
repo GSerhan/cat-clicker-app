@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Premium Cat Clicker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <!-- Main Section of App -->
+    <section id="app-body">
+        <aside id="cat_list" class="cat_list">
+            <h2>Cat Choices</h2>
+            <ul class="cat_list_ul">
+                <!-- List of Names will display here -->
+                <!-- <li class="cat_list_item cat_list_item--selected">Rocky</li>
+                <li class="cat_list_item">Sam</li>
+                <li class="cat_list_item">Cookie</li>
+                <li class="cat_list_item">Sylvanas</li>
+                <li class="cat_list_item">Bonnie</li> -->
+            </ul> <!-- list-of-names -->
+        </aside>
+        <main class="cat-display">
+            <div id="cat-clicker" class="container">
+                <h1>Premium Cat Clicker</h1>
+                <!-- cat photos will display here -->
+                <div class="cat-entry">
+                    <!-- <div class='entry-body'>
+                        <img src='img/cat01.jpg' class='cat-img'/>
+                        <h2 class='cat-name'>Rocky</h2>
+                    </div> 
+                        <h2>Clicked: <span class="click-count">0</span> -->
+                </div> <!-- .cat-entry -->
+            </div> <!-- .container -->
+            <div class="admin-section container">
+                <div class="admin-header">
+                        <h3 class="admin">Edit Cat Info</h3>
+                        <button class="btn admin-btn">Admin</button>
+                </div>
+                <form class="admin admin-form" id="admin-form">
+                    <div class="form-input">
+                        <label for="cat-name">Name</label>
+                        <input type="text" name="cat-name" value="" id="cat-name"/>
+                    </div> <!-- .form-input -->
+                    <div class="form-input">
+                        <label for="cat-img">Image</label>
+                        <input type="text" name="cat-img" value="" id="cat-img"/>
+                    </div><!-- .form-input -->
+                    <div class="form-input">
+                        <label for="cat-alt-text">Alt Text</label>
+                        <input type="text" name="cat-alt-text" value="" id="cat-alt-text"/>
+                    </div><!-- .form-input -->
+                    <div class="form-input">
+                        <label for="click-count">Clicks</label>
+                        <input type="number" name="click-count" value="" id="cat-click-count"/>
+                    </div><!-- .form-input -->
+                    <div class="form-btns">
+                        <button class="btn cancel-btn">Cancel</button>
+                        <button class="btn submit-btn" form="admin-form" value="Submit">Ok</button>
+                    </div> <!-- .form-btns -->
+                </form> <!-- .admin-form -->
+            </div> <!-- .admin-section -->
+        </main>
+    </section> <!-- #app-body -->
+
+
+    <!-- Footer -->
+    <footer>
+        <p>Udacity Front End Developer Nanodegree Program</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
